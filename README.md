@@ -6,25 +6,31 @@ The accompanying code is a solution to the following SGI programming problem:
 
 
    Problem 1:
+   
   	Description:
+
 	  	Given a list of people with their birth and end years (all between 1900 and 2000), 
 	  	find the year with the most number of people alive.
+
 	  Code
 		  Solve using a language of your choice and dataset of your own creation.
+  
   	Submission
 	  	Please upload your code, dataset, and example of the program’s output to Bit Bucket or Github. 
-		  Please include any graphs or charts created by your program.
+		Please include any graphs or charts created by your program.
 
   Solution:
+  
     Description:
-		  This program allows the user to
-		   a) Generate a population file, including the birth & death years of each person.
-			This dataset includes people who were born before 1900 or died after 2000,
-			however, their lifespan is 'trimmed' to fit in the 1900 to 2000 year range.
-		   b) Process the file and report the year that the maximum number of people were alive.
-		      If the maximum occurs in multile years, all years will be reported.
 
-  		Usage: SGI_WhoIsAlive populationFile [sizeOfPopulationToGenerate]
+	  This program allows the user to
+	   a) Generate a population file, including the birth & death years of each person.
+	      This dataset includes people who were born before 1900 or died after 2000,
+	      however, their lifespan is 'trimmed' to fit in the 1900 to 2000 year range.
+	   b) Process the file and report the year that the maximum number of people were alive.
+	      If the maximum occurs in multile years, all years will be reported.
+
+  	   Usage: SGI_WhoIsAlive populationFile [sizeOfPopulationToGenerate]
 	   	   Where
 		      'populationFile'             is the file to read from or write to,
 		      'sizeOfPopulationToGenerate' is an integer specifying the number of records to generate for the file.
